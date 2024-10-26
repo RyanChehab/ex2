@@ -1,5 +1,5 @@
 let input = prompt("Please enter a positive number: ")
-if (!isNaN(input) && input>0 && input.trim !==" "){
+if (!isNaN(input) && input>0 && input.trim() !==" "){
     let odd=1
     let number_rec = []
     for (let i = 0; i < input; i++){
